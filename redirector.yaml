@@ -1,8 +1,4 @@
-- host: '*fuller.li'
-  destination: http://kylefuller.co.uk{path}
-- host: '*querykit.org'
-  destination: https://github.com/QueryKit
-- host: www.palaverapp.com
-  destination: http://palaverapp.com{path}
-- host: www.cocode.org
-  destination: http://cocode.org{path}
+- host: '*segiddins.com'
+  destination: http://{subdomain}.segiddins.me
+- host: 'github.segiddins.me'
+  destination: https://github.com/segiddins
